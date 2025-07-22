@@ -1,22 +1,32 @@
-# This is the main entry point for the network traffic sniffer tool.
-# It initializes the tool, captures packets, parses them, analyzes the data,
-# logs the results, and visualizes the analysis report.
-# The tool provides a comprehensive solution for monitoring network traffic.
-# It allows users to capture packets from a specified network interface,
-# parse the captured packets to extract relevant information,
-# analyze the parsed data to gain insights into network traffic patterns,
-# log the captured and analyzed data for future reference,
-# and visualize the results using graphical representations.
-# This tool is useful for network administrators, security analysts,
-# and anyone interested in monitoring and analyzing network traffic.
-# It can help in identifying network issues, monitoring traffic patterns,
-# and enhancing overall network security.
-# The tool is built using Python and utilizes libraries such as Scapy for packet manipulation,
-# Matplotlib for visualization, and JSON for logging results.
-# The modular design allows for easy extension and customization,
-# making it adaptable to various network monitoring needs.
-# The tool is designed to be user-friendly, with clear prompts for input
-# and informative outputs for the user.
-# It is a powerful tool for anyone looking to gain deeper insights into their network traffic.
-# It can be used in various scenarios, including network troubleshooting,
-# security analysis, and performance monitoring.
+# 🛡️ Network Traffic Analyzer
+
+A modular Python-based network traffic analyzer built from scratch to support cybersecurity monitoring, logging, and visualization. Designed to capture real-time packets, parse them, detect suspicious behaviors, log detailed insights, and visualize traffic patterns.
+
+---
+
+## 🚀 Features
+
+- 🔎 **Packet Capture** – Real-time packet sniffing using Scapy
+- 🧩 **Parser Module** – Extracts source/destination IPs, ports, protocols
+- 📊 **Analyzer Module** – Detects anomalies like port scans and suspicious spikes
+- 🗃️ **Logger Module** – Saves logs in JSON format for review
+- 📈 **Visualizer Module** – Uses Matplotlib to generate traffic graphs
+- 💡 Modular architecture – Easy to extend and integrate with other tools
+
+---
+
+## 🧠 How It Works
+
+The system is broken into modular components:
+
+1. **Capture Module** – Captures packets from the selected interface.
+2. **Parser Module** – Extracts structured info (IPs, ports, protocols).
+3. **Analyzer Module** – Detects suspicious behaviors and aggregates stats.
+4. **Logger Module** – Stores parsed packets and analysis reports in JSON logs.
+5. **Visualizer Module** – Loads logs and visualizes protocol/IP/port distributions.
+
+---
+
+## 📦 Requirements
+
+Install required dependencies:
