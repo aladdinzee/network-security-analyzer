@@ -26,7 +26,3 @@ The system is broken into modular components:
 5. **Visualizer Module** – Loads logs and visualizes protocol/IP/port distributions.
 
 ---
-
-## 📦 Requirements
-
-Install required dependencies:
